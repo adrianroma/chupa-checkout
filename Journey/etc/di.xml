@@ -1,0 +1,19 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Chupa\Journey\Logger\Handler\Log">
+        <arguments>
+            <argument name="filesystem" xsi:type="object">Magento\Framework\Filesystem\Driver\File</argument>
+        </arguments>
+    </type>
+    <type name="Chupa\Journey\Logger\Log">
+        <arguments>
+            <argument name="name" xsi:type="string">ChupaJourneyLogger</argument>
+            <argument name="handlers" xsi:type="array">
+                <item name="system" xsi:type="object">Chupa\Journey\Logger\Handler\Log</item>
+            </argument>
+        </arguments>
+    </type>
+    <type name="Magento\Checkout\Block\Checkout\LayoutProcessor">
+        <plugin name="add_delivery_date_field"
+                type="Chupa\Journey\Plugin\Checkout\LayoutProcessorPlugin" sortOrder="10"/>
+    </type>
+</config>

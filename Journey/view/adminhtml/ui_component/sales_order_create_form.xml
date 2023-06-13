@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <fieldset name="custom_fieldset">
+        <field name="comments" formElement="input">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="label" xsi:type="string" translate="true">Comments</item>
+                    <item name="visible" xsi:type="boolean">true</item>
+                    <item name="dataScope" xsi:type="string">comments</item>
+                    <item name="sortOrder" xsi:type="number">100</item>
+                </item>
+            </argument>
+        </field>
+        <field name="gender" formElement="select">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="label" xsi:type="string" translate="true">Gender</item>
+                    <item name="visible" xsi:type="boolean">true</item>
+                    <item name="dataScope" xsi:type="string">custom_dropdown</item>
+                    <item name="sortOrder" xsi:type="number">110</item>
+                    <item name="options" xsi:type="array">
+                        <item name="male" xsi:type="array">
+                            <item name="label" xsi:type="string" translate="true">Male</item>
+                            <item name="value" xsi:type="string">male</item>
+                        </item>
+                        <item name="famale" xsi:type="array">
+                            <item name="label" xsi:type="string" translate="true">Famale</item>
+                            <item name="value" xsi:type="string">famale</item>
+                        </item>
+                    </item>
+                </item>
+            </argument>
+        </field>
+    </fieldset>
+</form>
