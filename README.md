@@ -1,4 +1,4 @@
-# chupacheckout
+# chupa-checkout
 
 Modulo Envia :  simple metodo de envio
 
