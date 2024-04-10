@@ -6,7 +6,7 @@
                 <active>1</active>
                 <title>Envia Chupa Precios</title>
                 <name>Chupa Precios Mensajeria</name>
-                <shipping_cost>10</shipping_cost>
+                <shipping_cost>100</shipping_cost>
                 <sallowspecific>0</sallowspecific>
                 <sort_order>15</sort_order>
                 <model>Chupa\Envia\Model\Carrier\Enviashipping</model>

@@ -1,5 +1,5 @@
 # chupa-checkout
 
-Modulo Envia :  simple metodo de envio
+Modulo Envia :  Simple metodo de envio
 
-Modulo Journey : modulo de logs de checkout success data y agrega atributos al checkout 'Gender' , 'Comments' y 'Fecha entrega'
+Modulo Journey : Modulo de logs de checkout success data y agrega atributos al checkout 'Gender' , 'Comments' y 'Fecha entrega'
